@@ -6,7 +6,7 @@ public class Check_qq {
 	 * 首位不能为0
 	 */
 public static void main(String args[]){
-	String ss = "123123sd";
+	String ss = "0123123sd";
 	if(ss.length() >=5 && ss.length() <=15){
 		  if(!ss.startsWith("0")){
 			 
